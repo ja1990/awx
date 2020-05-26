@@ -1,0 +1,9 @@
+---
+- hosts: all
+  user: ja
+  gather_facts: no
+  tasks:
+  - name: ping all hosts
+    ping:
+    ...
+    
